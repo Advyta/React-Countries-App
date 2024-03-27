@@ -1,0 +1,31 @@
+.home-flag{
+    height: 160px !important;
+}
+.card-style{
+    text-decoration: none;
+    min-width: 280px !important;
+    max-width: 320px !important;
+    justify-self: center;
+    cursor: pointer;
+}
+.media-styles{
+    justify-content: space-around;
+}
+@media screen and (max-width: 576px) {
+    .media-styles{
+        justify-content: center !important;
+    }
+}
+ul{
+    list-style: none;
+}
+li > span{
+    font-weight: 600;
+}
+.card-name{
+    font-weight: 700 !important;
+    padding-left: 32px;
+}
+.filter-component{
+    text-align: right;
+}

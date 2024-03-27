@@ -1,0 +1,24 @@
+.details{
+    padding-left: 0px;
+}
+
+.border-countries{
+    text-decoration: none;
+    /* border: solid 1px hsl(0, 0%, 82%) ; */
+}
+.back-div{
+    margin-left: 75px;
+}
+.width{
+    width: 120px;
+}
+.details-component{
+    padding-bottom: 280px;
+}
+
+@media screen and (max-width: 767px) {
+    .info-component{
+        padding-left: 50px;
+        margin-top: 48px;
+    }
+}
