@@ -25,6 +25,12 @@ Your users should be able to:
 - Redux toolkit
 - Fetch APi
 
+## Screenshots
+![Home](src/Pictures/Home.png)
+![Webpage](src/Pictures/Home-Darkmode.png)
+![Webpage](src/Pictures/DetailsPage.png)
+![Webpage](src/Pictures/DetailsPage-Darkmode.png)
+
 ## Author
 
 Frontend Mentor - [@Advyta](https://www.frontendmentor.io/profile/Advyta)
