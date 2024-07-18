@@ -18,8 +18,11 @@ input, select{
   height: 100%;
 }
 .light-mode input{
-  color: hsl(0, 0%, 52%);
+  color: hsl(200, 15%, 8%);
 } 
+/* .dark-mode input{
+  color: hsl(0, 0%, 82%) !important;
+} */
 
 .light-mode .border-countries{
   border: solid 1px hsl(0, 0%, 82%);
@@ -30,7 +33,7 @@ input, select{
 } */
 
 /* in dark mode */
-.dark-mode header, .dark-mode input, .dark-mode select, .dark-mode .card-style, .dark-mode .border-countries {
+.dark-mode header, .dark-mode input, .dark-mode select, .dark-mode .card-style, .dark-mode .border-countries, .dark-mode button {
   background-color: hsl(209, 23%, 22%) !important;
   color: white;
 

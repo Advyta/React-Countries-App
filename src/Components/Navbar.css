@@ -9,7 +9,11 @@ h2{
     padding-right: 10px;
 }
 .theme-changer{
-    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+.cursor{
+    cursor: text !important;
 }
 
 @media screen and (max-width: 767px) {

@@ -16,8 +16,8 @@ export default function Navbar() {
         <div className="col-5">
             <h2 className='title'>Where in the world?</h2>
         </div>
-        <div className="col-5 theme-changer">
-            <p className='text-end' onClick={() => changeTheme()}><span className='mode-icon'><i className={toggleTheme ? 'fa-solid fa-moon' : 'fa-regular fa-moon'}></i></span>Dark mode</p>
+        <div className="col-5 text-end">
+            <button className={` theme-changer`} onClick={() => changeTheme()} data-testid='themeToggler'><span className='mode-icon'><i className={toggleTheme ? 'fa-solid fa-moon' : 'fa-regular fa-moon'}></i></span>Dark mode</button>
         </div>
       </div>
     </header>
